@@ -1,0 +1,75 @@
+Chart.js:
+
+Chart.js es una biblioteca de gráficos simple y flexible que permite crear gráficos interactivos en HTML5.
+
+Rendimiento:
+es liviano y fácil de usar, lo que lo hace ideal para proyectos pequeños y medianos. 
+Sin embargo, puede no ser la mejor opción para conjuntos de datos extremadamente grandes o proyectos que requieren una alta personalización.
+
+Diferencias: Comparado con otras bibliotecas, es más simple y fácil de aprender. 
+Es una excelente opción para proyectos con requisitos de gráficos básicos.
+
+Pros y contras:
+
+Pros: Fácil de usar, buena documentación, amplia gama de tipos de gráficos.
+
+Contras: Menos personalización avanzada, puede no ser la mejor opción para proyectos complejos.
+
+
+React-Chartjs-2:
+es un envoltorio de React para Chart.js, permitiendo la integración fácil de gráficos Chart.js en aplicaciones React.
+
+Rendimiento: Al igual que Chart.js, el rendimiento es adecuado para proyectos de tamaño mediano. 
+La integración con React facilita el manejo del estado y la actualización de los gráficos.
+
+Diferencias:  simplifica la integración de Chart.js en aplicaciones React al proporcionar componentes React.
+
+Pros y contras:
+
+Pros: Integración con React, fácil de usar junto con otros componentes React.
+
+Contras: Aunque ofrece más flexibilidad que Chart.js solo, todavía puede carecer de algunas características avanzadas.
+
+
+Recharts:
+
+echarts es una biblioteca de gráficos para React basada en D3. Proporciona una API simple y componibles para construir gráficos.
+
+Rendimiento: Recharts está optimizado para proyectos React y ofrece buen rendimiento. 
+Es especialmente adecuado para aplicaciones que requieren gráficos interactivos y personalizables.
+
+Diferencias: Se basa en React y D3, lo que lo hace más potente y versátil en comparación con Chart.js y React-Chartjs-2.
+
+Pros y contras:
+
+Pros: Integración con React, soporte para gráficos avanzados, personalización, buena documentación.
+
+Contras: Puede ser un poco más complejo para principiantes.
+
+
+Nivo:
+
+Propósito: Nivo es una biblioteca de visualización de datos para React que ofrece una variedad de gráficos y componentes reutilizables.
+
+Rendimiento: Nivo es conocido por su rendimiento y capacidad para manejar grandes conjuntos de datos. 
+Es ideal para proyectos que requieren visualizaciones avanzadas y personalización.
+
+Diferencias: Ofrece una amplia gama de gráficos y componentes, y es altamente personalizable.
+
+Pros y contras:
+
+Pros: Alto rendimiento, soporte para una amplia variedad de gráficos, personalización avanzada.
+
+Contras: Puede tener una curva de aprendizaje más pronunciada debido a su amplia funcionalidad.
+
+
+documentación:
+
+chart.js https://www.chartjs.org/docs/latest/
+
+chart.js 2 react https://react-chartjs-2.js.org/examples
+
+recharts https://recharts.org/en-US/examples/SimpleBarChart
+
+nivo https://nivo.rocks/pie/
+
