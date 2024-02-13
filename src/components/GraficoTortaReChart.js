@@ -48,18 +48,6 @@ const GraficoTortaReChart = () => {
     return (
         <Card>
             <div style={{ width: '80%', height: 300 }}>
-            <Dropdown
-                value={selectedNodeKey}
-                onChange={(e) => {
-                    setSelectedNodeKey(e.value);
-                    if (e.value in dataOptions) {
-                        setCurrentData(dataOptions[e.value]);
-                    }
-                }} 
-                options={nodes}
-                className="place-content-start border-2"
-                placeholder="Seleccione Banco"
-            />
 
             <div className="ml-40">
                 <ResponsiveContainer className="pb-8"width="100%" height={300}>

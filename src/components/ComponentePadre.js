@@ -1,51 +1,29 @@
-import React, { useState} from 'react'
-import { Button } from 'primereact/button';
+import React  from 'react'
 import 'primeicons/primeicons.css';
-import { Toolbar } from 'primereact/toolbar';
 import GraficoBarrasReChart from './GraficoBarrasReChart';
 import GraficoTortaReChart from './GraficoTortaReChart';
 import ComponenteTop10 from './ComponenteTop10';
+import FiltrosDropDown from './FiltrosDropDown';
+import { Button } from 'primereact/button';
+import RangoFechas from './RangoFechas';
 
-//BOTON PDF
-export const pdfButton = () => {
-    return(
-        <React.Fragment>
-            <Button  className="ml-4 p-button-help bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-            <span class="material-symbols-outlined">
-                picture_as_pdf
-            </span> 
-                 PDF
-            </Button>
-        </React.Fragment>
-    ) 
-}; 
-// BOTON BRINKS Y BANCOS.
-export const leftButtons = () => {
-    return (
-        <React.Fragment>
-            <Button className="p-button-help bg-yellow-500 mr-4 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded flex items-center">
-            <span className="material-symbols-outlined mr-2">account_balance</span>
-            Bancos
-        </Button>
-       
-        <Button  className="p-button-help bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-            <span className="material-symbols-outlined">
-            atm
-            </span>
-            Brinks
-        </Button>
-        </React.Fragment>
-    );
-};
+
+//Dropdown con busqueda que ira en el toolbar
+
+
+
+
+
 
 
 const ComponentePadre = () => {
     return (
     <div className='mt-8 mx-auto '>
-
         <div className="sticky top-0 z-50 bg-white p-4">
-            <h1 className="text-center text-2xl font-semibold">GRAFICOS CON RECHART</h1>
-            <Toolbar className="mb-4" left={leftButtons}  right={pdfButton}></Toolbar>
+            <h1 className="text-center text-2xl font-semibold">DASHBOARD BRINKS</h1>
+            <div className=' flex justify-between'>
+            <FiltrosDropDown/>
+                    </div>
         </div>
 
         <div className='p-8'>
@@ -70,7 +48,6 @@ const ComponentePadre = () => {
             </div>
         </div>
         <div className="grid grid-cols-2 gap-8">
-            <ComponenteTop10 />
             <ComponenteTop10 />
         </div>
         
